@@ -1,0 +1,9 @@
+Designator,Value,Footprint,Quantity,Manufacturer,Manufacturer Part Number (MPN),Supplier,Supplier Part Number,Description,DNP
+R1,10k,R_0603_1608Metric,1,YAGEO,RC0603FR-0710KL,LCSC,C25804,Resistor 10k Ohm 1% 0603,No
+R2,4.7k,R_0603_1608Metric,1,YAGEO,RC0603FR-074K7L,LCSC,C23162,I2C Pull-up Resistor 4.7k Ohm,No
+R3,4.7k,R_0603_1608Metric,1,YAGEO,RC0603FR-074K7L,LCSC,C23162,I2C Pull-up Resistor 4.7k Ohm,No
+C1,100nF,C_0603_1608Metric,1,Samsung,CL10B104KB8NNNC,LCSC,C14663,Ceramic Capacitor 100nF 50V X7R,No
+C2,10uF,C_0805_2012Metric,1,Samsung,CL21A106KPFNNNE,LCSC,C15850,Ceramic Capacitor 10uF 10V X5R,No
+D1,Green,LED_0603_1608Metric,1,Everlight,19-217/GHC-YR1S2/3T,LCSC,C72043,Status Indicator LED 0603,No
+U1,ESP32-WROOM-32E,Module_ESP32-WROOM-32,1,Espressif Systems,ESP32-WROOM-32E-N4,LCSC,C701341,Wireless MCU Module Wi-Fi+BLE,No
+J1,USB-C 16P,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,Korean Hroparts Elek,TYPE-C-31-M-12,LCSC,C165948,USB Type-C Receptacle 16-Pin,No

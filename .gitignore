@@ -1,0 +1,82 @@
+# ==============================================================================
+# Git Ignore for Electronics Project (KiCad + PlatformIO / Embedded + Hardware)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Operating System & Editors
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# VS Code (ignore cache/local config, but keep recommended extensions/settings)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ------------------------------------------------------------------------------
+# KiCad EDA
+# ------------------------------------------------------------------------------
+# Backup and Autosave files
+*-save.kicad_pcb
+*-save.kicad_sch
+*-bak
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.autosave
+*.bck
+*.lck
+
+# Footprint / Symbol caches and logs
+fp-info-cache
+*.kicad_dru
+*.net
+*.wbk
+
+# ------------------------------------------------------------------------------
+# Firmware: PlatformIO, Arduino & Embedded Toolchains
+# ------------------------------------------------------------------------------
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+
+# ESP-IDF specific
+build/
+sdkconfig.old
+
+# Arduino IDE temp build files
+*.cpp.hex
+*.cpp.bin
+*.cpp.elf
+
+# ------------------------------------------------------------------------------
+# Simulation (LTspice, SPICE, Falstad)
+# ------------------------------------------------------------------------------
+*.raw
+*.log
+*.op.raw
+*.fft
+*.net
+
+# ------------------------------------------------------------------------------
+# CAD / 3D Exports temporary files
+# ------------------------------------------------------------------------------
+*.tmp
+*.bak
